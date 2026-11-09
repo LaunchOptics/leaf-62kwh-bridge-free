@@ -1,0 +1,20 @@
+# Keep raw firmware, captures, credentials, and large archives out of this public repo.
+*.kwp
+*.bin
+*.hex
+*.s19
+*.srec
+*.elf
+*.map
+*.zip
+*.apk
+*.pcap
+*.pcapng
+*.blf
+*.asc
+*.log
+*.key
+*.pem
+.env
+__pycache__/
+*.pyc
