@@ -52,6 +52,28 @@ See [firmware research](docs/firmware-research.md) for attribution and open ques
 
 **No vehicles or donor pack have been purchased.** The project is currently fundraising. The $7,000 target is a fundraising goal, not a validated engineering cost estimate.
 
+## Detailed research archive
+
+The original research PDFs were reviewed and their major technical findings organized into versioned, searchable notes below. These pages include newer November 2026 practitioner reports not present in the older PDFs.
+
+| Topic | Research document |
+|---|---|
+| Conversion alternatives | [Five paths](docs/approaches.md) |
+| Detailed candidate CAN IDs | [CAN dependency matrix](docs/can-message-matrix.md) |
+| BMS ↔ VCM state/handshake | [CAN protocol research](docs/can-protocol.md) |
+| Diagnostic request/response leads | [Diagnostic CAN](docs/diagnostics.md) |
+| Dual MCUs and firmware questions | [Firmware research](docs/firmware-research.md) |
+| Read vs write vs extraction tooling | [Firmware tools](docs/firmware-tools.md) |
+| SOC/IR tables and sensor calibration | [Calibration research](docs/calibration-research.md) |
+| Connectors, current sensors, mounts | [Hardware integration](docs/hardware-integration.md) |
+| Fault behavior and validation gates | [Safety and validation](docs/safety-validation.md) |
+| Chronology and changing conclusions | [Research log](docs/research-log.md) |
+| Fundraising and actual project stage | [Funding and status](docs/funding-and-status.md) |
+| Offline source/log scripts | [Research tools](tools/README.md) |
+| Sources and acknowledgments | [References](docs/sources.md) |
+
+**Provenance note:** Several findings derive from prior project PDF research and public-code reviews; they are not new hardware measurements. Source-specific branch and commit auditing remains on the roadmap. The PDF link below is an earlier research snapshot, not a source of current test results.
+
 ## Documentation
 
 - [Research approaches](docs/approaches.md)
