@@ -71,6 +71,7 @@ The original research PDFs were reviewed and their major technical findings orga
 | Fundraising and actual project stage | [Funding and status](docs/funding-and-status.md) |
 | Offline source/log scripts | [Research tools](tools/README.md) |
 | Sources and acknowledgments | [References](docs/sources.md) |
+| Evidence audit and open verification gaps | [Audit (2026-11-09)](docs/research-audit-2026-11-09.md) |
 
 **Provenance note:** Several findings derive from prior project PDF research and public-code reviews; they are not new hardware measurements. Source-specific branch and commit auditing remains on the roadmap. The PDF link below is an earlier research snapshot, not a source of current test results.
 
