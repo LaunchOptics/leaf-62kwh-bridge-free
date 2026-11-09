@@ -27,3 +27,18 @@ MyNissanLeaf contributors **ginetto** and **ukoda** encouraged moving the resear
 No car or pack purchased; no original project CAN logs; no firmware images independently analyzed; no BMS or VCM patched; no contactor or charge behavior tested; no physical conversion demonstrated.
 
 Future log entries should include date, source, exact revision, evidence, what changed, and what remains unknown.
+
+
+## November 2026 — direct follow-up: both ZE1 MCUs (BennVenn, practitioner report)
+
+In response to the project's explicit question whether ZE1 extraction tooling can dump both main and SUB MCU firmware and whether modified firmware can be reflashed, BennVenn replied:
+
+> "yes, it can extract both. modified firmware, if checksums are correct and the code is working can be flashed over can."
+
+**Change from earlier uncertainty:** Both-MCU extraction is now **explicitly practitioner-confirmed**. Modified firmware reflashing over CAN is also reported as possible, conditional on correct checksums and functioning code. The statement does **not** specify exact hardware/firmware variants, flashing procedure, recovery guarantees, or whether both MCU images can independently be reflashed in every target configuration. No project-owned validation has occurred.
+
+### Separate ZE1 capacity-reprogramming exchange (other Discord participant)
+
+BennVenn answered that reprogramming a ZE1 40 kWh LBC/BMS for a larger 62–64 kWh pack is possible and asked for the replacement cells' discharge-curve data. He stated that firmware is locked to the individual BMS and not transferable as a shared image. He suggested a GODIAG GD101 J2534 interface; later clarified that other J2534 interfaces may work but require user debugging, and distinguished the correct reflash application from another app.
+
+**Scope limitation:** This exchange concerns ZE1 BMS capacity adaptation, not ZE1 BMS ↔ AZE0 VCM interoperability. The firmware-lock statement may describe BennVenn's delivered reflash files; it should not be generalized to all Nissan firmware without further evidence.
